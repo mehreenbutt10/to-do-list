@@ -20,8 +20,8 @@ function appendAbsentStudent(name, assignment, date) {
     </div>
   `);
 
-  // var delete=$('.delete');
-  // delete.on("click", remove);
+  var button=$('button');
+  button.on("click", remove);
 }
 
 function clearStudents() {
@@ -34,7 +34,6 @@ function clearStudents() {
 // var wholeCard=$('.whole-card');
 
 // //
-// function remove() {
-//   event.target.parentNode.remove();
-//
-// }
+function remove() {
+  event.target.parentNode.remove()
+}
