@@ -1,0 +1,11 @@
+.content {
+  margin: 60px auto;
+  width: 540px;
+  border: solid 3px black;
+}
+input {
+  text-align: center;
+}
+h1{
+  text-align:center;
+}
